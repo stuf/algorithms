@@ -3,7 +3,7 @@
  * 2014-01-21
  */
 
-Array.prototype.shuffle = function shuffle (numbers) {
+Array.prototype.shuffle = function () {
 	var end = this.length - 1;
 
 	while (end > 1) {
